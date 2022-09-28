@@ -1,9 +1,8 @@
 #pragma once
+#include <cstdlib>
+#include <iostream>
 
-namespace foobar
-{
-    struct Example
-    {
-        int getValue() const;
-    };
-}
+using namespace std; 
+
+float Dividir(int num1, int num2);
+int DNI();
